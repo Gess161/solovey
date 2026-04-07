@@ -77,7 +77,8 @@ export default function App() {
         <Route path="/2" element={<P2PParimatch />} />
         <Route path="/3" element={<P2PStake />} />
         <Route path="/4" element={<P2PV3 />} />
-        <Route path="/" element={<Navigate to="/1" />} />
+        <Route path="/" element={<P2P1Win />} />
+        <Route path="*" element={<Navigate to="/1" />} />
       </Routes>
     </Router>
   );
